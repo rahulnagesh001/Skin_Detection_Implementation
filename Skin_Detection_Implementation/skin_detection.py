@@ -75,7 +75,6 @@ def detect_skin():
   
     #Load image to memory - RGB by default
     image = PIL.Image.open("0016.jpg")
-    #image = PIL.Image.open("D:/Echobatix/Skin_Detection_Implementation/IMG_20210108_170752 (2).jpg")
         
     #show Original Image
     display(image)
